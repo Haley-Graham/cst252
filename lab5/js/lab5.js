@@ -3,13 +3,13 @@
 // License: Public Domain
 
 // Define Variables
-Make= "Volkswagon";
-Model= "Jetta";
-Color= "red";
-Year= 2007;
+make= "Volkswagon";
+model= "Jetta";
+color= "red";
+year= 2007;
 
 // Calculate
-age = 2021 - Year;
+age = 2021 - year;
 
 // Output
 document.writeln("Make: " + make + "<br>");
