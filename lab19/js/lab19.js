@@ -2,7 +2,7 @@
 // Created: 19 April
 // License: Public Domain
 
-var endpoint = "https://api.kanye.rest/";
+var endpoint = "https://api.whatdoestrumpthink.com/api/v1/quotes/random";
 // Add a click event to the button
 $("#activate").click(function(){
 	$("#output").append("<p>Howdy!</p>");
