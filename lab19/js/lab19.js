@@ -2,7 +2,7 @@
 // Created: 19 April
 // License: Public Domain
 
-var endpoint = "http://numbersapi.com/random/year";
+var endpoint = "https://api.kanye.rest/";
 // Add a click event to the button
 $("#activate").click(function(){
 	$("#output").append("<p>Howdy!</p>");
