@@ -3,10 +3,8 @@
 // License: Public Domain
 
 // var URL = "https://xkcd.com/info.0.json";
-//
 // var URLpre = "https://xkcd.com/";
 // var URLpost = "info.0.json";
-//
 // // Endpoint format: http://xkcd.com/614/info.0.json
 //
 // function getComic(num) {
@@ -32,7 +30,8 @@
 				$("#output").append(newImage);
 // Give the image an alt attribute using the data.alt key from the object
         $("#altText").html(data.alt);
-
+      }
+  })
         // // add event listener to new prev button
         //       $("#prev").click(function(){
         //         getComic(comicNum - 1);
@@ -41,5 +40,3 @@
         //       $("#next").click(function(){
         //         getComic(comicNum + 1);
         //       });
-    }
-})
